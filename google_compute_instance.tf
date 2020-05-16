@@ -10,7 +10,7 @@ provider "google" {
 
 resource "google_compute_instance" "tf-cloud-01" {
     name         = "tf-cloud-01"
-    machine_type = "f1-micro"
+    machine_type = "g1-small"
     allow_stopping_for_update = true
 
     boot_disk {

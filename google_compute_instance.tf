@@ -15,7 +15,7 @@ resource "google_compute_instance" "tf-compute-instance" {
 
     boot_disk {
         initialize_params {
-        size  = 10
+        size  = 12
         type  = "pd-standard"
         image = "debian-cloud/debian-9"
         }

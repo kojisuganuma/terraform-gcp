@@ -9,7 +9,7 @@ provider "google" {
 }
 
 resource "google_compute_instance" "tf-cloud-01" {
-    name         = "tf-cloud-01"
+    name         = "tf-compute-instance"
     machine_type = "f1-micro"
     allow_stopping_for_update = true
 

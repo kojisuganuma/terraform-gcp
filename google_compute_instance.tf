@@ -7,21 +7,3 @@ provider "google" {
   region      = "asia-northeast1"
   zone        = "asia-northeast1-b"
 }
-
-resource "google_compute_instance" "tf-compute-instance" {
-    name         = "tf-compute-instance"
-    machine_type = "f1-micro"
-    allow_stopping_for_update = true
-
-    boot_disk {
-        initialize_params {
-        size  = 10
-        type  = "pd-standard"
-        image = "debian-cloud/debian-9"
-        }
-    }
-
-	network_interface {
-		network = "default"
-	}
-}

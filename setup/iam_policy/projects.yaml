@@ -5,10 +5,8 @@ bindings:
 - members:
   - serviceAccount:592227450190-compute@developer.gserviceaccount.com
   - serviceAccount:592227450190@cloudservices.gserviceaccount.com
+  - serviceAccount:terraform@ks-playground.iam.gserviceaccount.com
   role: roles/editor
 - members:
   - user:kojisuganuma93@gmail.com
   role: roles/owner
-- members:
-  - serviceAccount:terraform@ks-playground.iam.gserviceaccount.com
-  role: roles/viewer

@@ -1,4 +1,4 @@
 bindings:
-- role: roles/editor
+- role: roles/owner
   members:
   - serviceAccount:terraform@ks-playground.iam.gserviceaccount.com
